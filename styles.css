@@ -1,0 +1,136 @@
+canvas {
+    background-color: rgb(19, 19, 19); /*rgb(90, 124, 91);*/
+    display: block;
+    margin: 1em auto;
+    border: 3px solid;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    -webkit-font-smoothing : none;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    transform: scale(130%);
+    margin-top: 4em;   
+}
+
+* {
+    margin: 0;
+    user-select: none;
+}
+
+html {
+    background-color: rgb(20, 20, 20);
+    margin: 0;
+}
+
+#game_menu, #sub_menu {
+    width: 512px;
+    height: 384px;
+    background-color: rgb(3, 62, 33);
+    display: block;
+    margin: 1em auto;
+    border: 3px solid;
+    transform: scale(130%);
+    margin-top: 4.45em;
+    text-align: center;
+    font-family: 'Arial Narrow Bold', sans-serif; 
+    letter-spacing: 2px;
+}
+
+#sub_menu {
+    background-color: black;
+    width: 512px;
+    height: 40px;
+}
+
+#game_menu p {
+    padding-bottom: 0.5em;
+}
+
+a, p{
+    text-decoration: none;
+    color: rgb(195, 195, 195);
+    font-weight: bold;
+}
+
+a:hover {
+    color: gold;
+}
+
+.title {
+    transform: scale(40%);
+    margin-top: -7em;
+    margin-left: -3em;
+    margin-bottom: -6em;
+}
+
+.credits {
+    margin-top: 1em;
+}
+
+.credits p {
+    margin-bottom: 1em;
+}
+
+.credits img {
+    transform: scale(50%);
+    margin-top: -2em;
+}
+
+.credits a{
+    color: gold;
+}
+
+.credits a:hover {
+    background-color: rgb(255,255,255,0.3);
+}
+
+.credits section {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2em 0em;
+}
+
+.walkthrough p{
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding: 1.5em;
+    font-size: 0.85em;
+}
+
+.walkthrough h1, .walkthrough h2{
+    color: gold;
+    font-weight: 900;
+}
+
+.walkthrough h1 {
+    padding-top:0.65em;
+}
+
+h2 {
+    font-size: 1.1em;
+    padding-top: 3em;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.walkthrough section {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-bottom: 0.6em;
+}
+
+.golden {
+    font-size: 1.1em;
+    color: rgb(189, 160, 0);
+}
+
+.walkthrough_link {
+    font-size:0.6em; 
+    background-color: rgb(0,0,0,0.5); 
+    text-align: right;
+    padding: 0.6em;
+}
