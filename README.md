@@ -3,4 +3,4 @@ Top down game developed as part of my client-side project for Web Development II
 
 Obtained mark: 100%
 
-**Technologies:** _vanilla JavaScript, HTML, CSS_
+**Technologies:** _JavaScript, HTML, CSS_
